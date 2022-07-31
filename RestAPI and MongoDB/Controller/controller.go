@@ -147,7 +147,7 @@ func getAll() []primitive.M {
 //getting movies
 // @Title Get All Records
 // @Description Actual controller that gets all the movies/records in the database and returns them
-// @Param respone body ResponseWriter true "creates a writer for json"
+// @Param respone body  true "creates a writer for json"
 // @Param request body pointer true "creates a reader for json"
 // @Router /api/allmovies [get]
 func GetAllRecords(w http.ResponseWriter, r *http.Request) {
@@ -160,7 +160,7 @@ func GetAllRecords(w http.ResponseWriter, r *http.Request) {
 // creating movie
 // @Title Create a Records
 // @Description Actual controller that creates a movie
-// @Param respone body http.ResponseWriter true "creates a writer for json"
+// @Param respone body  true "creates a writer for json"
 // @Param request body pointer true "creates a reader for json"
 // @Router /api/movie [post]
 func CreateMovie(w http.ResponseWriter, r *http.Request) {
@@ -176,7 +176,7 @@ func CreateMovie(w http.ResponseWriter, r *http.Request) {
 // marking the movie as watched
 // @Title Marking movie as watched
 // @Description Actual controller that marks a movie as watched
-// @Param respone body http.ResponseWriter true "creates a writer for json"
+// @Param respone body  true "creates a writer for json"
 // @Param request body pointer true "creates a reader for json"
 // @Router /api/watchedmovie/{id} [put]
 func MarkMovieAsWatched(w http.ResponseWriter, r *http.Request) {
@@ -191,7 +191,7 @@ func MarkMovieAsWatched(w http.ResponseWriter, r *http.Request) {
 // deleting 1 movie
 // @Title Deleting a movie
 // @Description Actual controller that deletes a movie
-// @Param respone body http.ResponseWriter true "creates a writer for json"
+// @Param respone body  true "creates a writer for json"
 // @Param request body pointer true "creates a reader for json"
 // @Router /api/deletemovie/{id} [delete]
 func DeleteMovie(w http.ResponseWriter, r *http.Request) {
@@ -206,7 +206,7 @@ func DeleteMovie(w http.ResponseWriter, r *http.Request) {
 //deleting all
 // @Title Deleting all movies
 // @Description Actual controller that deletes all movies
-// @Param respone body http.ResponseWriter true "creates a writer for json"
+// @Param respone body  true "creates a writer for json"
 // @Param request body pointer true "creates a reader for json"
 // @Router /api/deleteall [delete]
 func DeleteAll(w http.ResponseWriter, r *http.Request) {
