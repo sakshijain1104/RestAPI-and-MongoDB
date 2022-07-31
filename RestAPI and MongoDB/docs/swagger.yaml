@@ -1,0 +1,17 @@
+definitions:
+  model.PrimeVideo:
+    properties:
+      _id:
+        type: string
+      movie:
+        type: string
+      watched:
+        type: boolean
+    type: object
+info:
+  contact: {}
+  description: Creating a watchlist of movies
+  title: Movie API
+  version: "1.0"
+paths: {}
+swagger: "2.0"

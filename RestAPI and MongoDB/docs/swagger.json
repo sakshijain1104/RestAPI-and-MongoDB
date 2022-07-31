@@ -1,0 +1,26 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Creating a watchlist of movies",
+        "title": "Movie API",
+        "contact": {},
+        "version": "1.0"
+    },
+    "paths": {},
+    "definitions": {
+        "model.PrimeVideo": {
+            "type": "object",
+            "properties": {
+                "_id": {
+                    "type": "string"
+                },
+                "movie": {
+                    "type": "string"
+                },
+                "watched": {
+                    "type": "boolean"
+                }
+            }
+        }
+    }
+}
