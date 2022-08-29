@@ -17,7 +17,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-const connectionString = "mongodb+srv://sakshi1104:14371818@cluster0.judp1.mongodb.net/?retryWrites=true&w=majority"
+const connectionString = "mongodb+srv://sakshi1104:<password>@cluster0.judp1.mongodb.net/?retryWrites=true&w=majority"
 const dbName = "primevideo"
 const collectionName = "watchlist"
 
